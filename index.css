@@ -1,0 +1,49 @@
+header{
+  background-color: red;
+}
+header a{
+  text-decoration: none;
+  color:white;
+  transition-duration: 1s;
+  font-size: 20px;
+  margin: 10px;
+}
+header a:hover{
+  color: greenyellow;
+  transition-duration: 1s;
+}
+#members a{
+  text-decoration: none;
+}
+#sub_title{
+  color: white;
+  text-align: center;
+}
+
+header h1{
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+/*スライドショー*/
+.container {
+  margin: 10px auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  width: auto;
+  color: #333;
+  background: brown;
+}
+
+.single-item{
+  background-image: url("./meta/sample.jpg");
+}
+
+.slick-slide {
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  color: #419be0;
+}
