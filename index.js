@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded',function(){
       $link.src = `${$src}?controls=1&rel=0`;
       $link.title = 'YouTube video player';
       $link.frameborder = 0;
-      $link.setAttribute('arrows','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen')
+      $link.setAttribute('arrows','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture')
     });
   });
 });
