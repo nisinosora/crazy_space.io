@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded',function(){
       $link.height = '315';
       $link.src = `${$src}?controls=1&rel=0`;
       $link.title = 'YouTube video player';
-      $link.frameborder = 0;
-      $link.setAttribute('arrows','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture')
+      $link.setAttribute('frameborder', "0")
+      $link.setAttribute('arrows','accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture')
     });
   });
 });
