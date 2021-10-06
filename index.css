@@ -8,41 +8,6 @@ header a{
   display: inline-block;
   margin: 10px;
 }
-@media screen and (min-width: 390px) and (max-width: 501px) {
-  header a{
-    font-size: 16px;
-    margin: 1px;
-  }
-  header h1{
-    font-size: 18px;
-  }
-  .single-item iframe{
-    width: 700px;
-    height: 400px;
-  }
-}
-
-@media screen and (min-width: 501px) and (max-width: 640px) {
-  header a{
-    font-size: 13px;
-    margin: 1px;
-  }
-  header h1{
-    font-size: 15px;
-  }
-}
-
-@media screen and (min-width: 640px){
-  header h1{
-    font-size: 20px;
-  }
-}
-
-@media screen and (min-width: 520px){
-  header a{
-    font-size: 25px;
-  }
-}
 
 header a:hover{
   color: greenyellow;
@@ -65,6 +30,7 @@ header h1{
 
 .single-item{
   background-image: url("./meta/sample.jpg");
+  height: 400px;
 }
 
 .sub_title{
