@@ -17,3 +17,13 @@
     height: 275px;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .container iframe{
+    width: 260px;
+    height: 150px;
+  }
+  .single-item{
+    height: 250px;
+  }
+}
