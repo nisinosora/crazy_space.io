@@ -1,0 +1,9 @@
+@media screen and (max-width: 500px) {
+  .container iframe{
+    width: 350px;
+    height: 195px;
+  }
+  .single-item{
+    height: 300px;
+  }
+}
