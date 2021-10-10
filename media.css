@@ -6,6 +6,9 @@
   .single-item{
     height: 300px;
   }
+  .sub_title{
+    font-size: 8px;
+  }
 }
 
 @media screen and (max-width: 430px) {
@@ -16,6 +19,9 @@
   .single-item{
     height: 275px;
   }
+  .sub_title{
+    font-size: 3px;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -25,5 +31,8 @@
   }
   .single-item{
     height: 250px;
+  }
+  .sub_title{
+    font-size: 1px;
   }
 }
