@@ -1,3 +1,13 @@
+@media screen and (min-width: 700px){
+  .ac-cap1-1, .ac-title{
+    display: none;
+  }
+  .ac-cap .content{
+    transition: none;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .container iframe{
     width: 350px;
@@ -11,6 +21,12 @@
   }
   .description section{
     text-align: start;
+  }
+  header a{
+    display: block;
+  }
+  .content{
+    background-color: #fd7e00;
   }
 }
 
